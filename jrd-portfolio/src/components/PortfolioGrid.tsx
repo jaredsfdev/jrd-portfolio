@@ -11,7 +11,7 @@ import Card from "./ui/Card";
 import Button from "./ui/Button";
 import Tag from "./ui/Tag";
 import styles from "./PortfolioGrid.module.css";
-import { education, experiences, highlights, projects, techStack, certifications } from "../content";
+import { education, experiences, highlights, projects, techStack} from "../content";
 import {} from "../content"
 
 function PortfolioGrid() {

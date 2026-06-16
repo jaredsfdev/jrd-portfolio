@@ -188,7 +188,11 @@
     cursor: pointer;
   }
 }
-
+.certGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
 /* Image */
 .projectItem img {
   width: 100%;

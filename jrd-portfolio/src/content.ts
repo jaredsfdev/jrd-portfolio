@@ -19,19 +19,32 @@ export const experiences = [
     role: "Software Developer",
     period: "2024 - Present",
     org: "Government and Hospital Human Resource Information Systems - (CONFIDENTIAL)",
-    detail: "Developed and optimized a Human Resource Information System capable of handling thousands of concurrent users across multiple divisions. Managed high-volume transactions, patient records, and workflows by designing efficient Stored Procedures and database Events, ensuring performance and scalability under heavy workloads.",
+    details: [
+      "Developed and optimized a Human Resource Information System serving thousands of concurrent users across multiple divisions.",
+      "Managed high-volume transactions, patient records, and workflows through efficient database design.",
+      "Designed complex Stored Procedures and database Events to ensure scalability and performance under heavy workloads.",
+    ],
+    skills: ["PHP", "CakePHP", "MySQL", "Database Optimization", "Performance Tuning"],
   },
   {
     role: "Freelance Developer",
     period: "2022 - 2023",
     org: "Random Clients (Coffee Shop, Sari-Sari Store, Connections)",
-    detail: "Designed and developed landing pages and point-of-sale systems for web and desktop applications. Notably optimized customer queuing for a coffee shop, enhancing user experience, increasing customer loyalty, and driving higher revenue.",
+    details: [
+      "Designed and developed responsive landing pages and point-of-sale systems for web and desktop platforms.",
+      "Optimized customer queuing workflows for a coffee shop, improving user experience and customer retention.",
+      "Delivered tailored solutions based on unique business requirements.",
+    ],
+    skills: ["React", "Bootstrap", "VB.NET", "MySQL", "Workflow Optimization"], 
   },
   {
     role: "Hello World!",
     period: "2020",
-    org: "  Wrote my first line of code.",
-    detail: "Started exploring Web and Desktop app Development.",
+    org: "Wrote my first line of code.",
+    details: [
+      "Started exploring web and desktop application development.",
+      "Built foundational skills in programming and software engineering.",
+    ],
   },
 ];
 
@@ -39,7 +52,11 @@ export const education = [
   {
     period: "2020 - 2024",
     school: "Colegio De Montalban",
-    detail: "BS Information Technology. President's Lister and Dean's Lister.",
+    detail: "BS Information Technology.",
+    bullets: [
+      "Graduated with a Bachelor's degree in Information Technology, earning both President's and Dean's List honors for academic excellence.",
+      "Completed coursework in software development, database management, and system design, laying a strong foundation for a career in technology.",
+    ],
   },
   {
     period: "2018 - 2019",
@@ -153,5 +170,14 @@ export const techStack = {
   Frontend: ["HTML5", "CSS", "React", "Vite", "Bootstrap"],
   Backend: ["JavaScript", "TypeScript", "PHP", "CakePHP", "Laravel", "Node.js"],
   Database: ["MySQL", "MongoDB"],
-  Tools: ["Git", "GitHub", "Bitbucket", "Jira"],
+  Tools: ["Git", "GitHub", "Bitbucket", "Jira", "GraphQL"],
 };
+
+export const certifications = [
+  {
+    name: "Javascript",
+    issuer: "TestDome",
+    url: "https://www.testdome.com/certificates/3deda3907b6f496f8b387064c58a0ac9",
+    username: "jaredsfdev"
+  }
+]

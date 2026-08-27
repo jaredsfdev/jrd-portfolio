@@ -1,4 +1,3 @@
-
 export const highlights = [
   {
     title: "About Me",
@@ -16,15 +15,51 @@ export const highlights = [
 
 export const experiences = [
   {
-    role: "Software Developer",
-    period: "2024 - Present",
+    role: "Information Systems Analyst II",
+
+    period: "May 11, 2026 - Present",
+
+    org: "External and Internal Websites and Software Development, Philippine Ports Authority",
+
+    details: [
+      "Revamped the legacy Drupal-based PPA website by migrating the application layer to Laravel and React with MySQL, while maintaining compatibility with existing Drupal files and implementing a coexistence architecture between the legacy and modernized systems.",
+      "Developed the Ports Statistics and Management System (PSMS), implementing batched and optimized Excel import/export processing capable of handling 100,000+ rows. Achieved approximately 6–10 seconds of processing time for 100,000-row datasets through the use of lookup/reference tables, database seeding, and bulk database operations.",
+      "Designed and optimized database structures and data-processing workflows for large-scale port statistics, focusing on query efficiency, reduced redundant database operations, and maintainable application architecture.",
+      "Learned and implemented Git-based application deployment to Linux server environments, including pulling application updates from repositories, managing server-side application files, configuring environments, and troubleshooting deployment issues.",
+      "Performed server file management and deployment-related tasks using WinSCP, including secure file transfer, application file updates, directory management, and working with server-side permissions and configurations."
+    ],
+
+    skills: [
+      "PHP",
+      "Laravel",
+      "React",
+      "Inertia.js",
+      "CakePHP",
+      "Drupal",
+      "MySQL",
+      "Database Design",
+      "Database Optimization",
+      "Performance Tuning",
+      "Data Import/Processing",
+      "Legacy System Modernization",
+    ],
+  },
+  {
+    role: "Software Developer I",
+    period: "July 11, 2024 - May 8, 2026",
     org: "Government and Hospital Human Resource Information Systems - (CONFIDENTIAL)",
     details: [
       "Developed and optimized a Human Resource Information System serving thousands of concurrent users across multiple divisions.",
       "Managed high-volume transactions, patient records, and workflows through efficient database design.",
       "Designed complex Stored Procedures and database Events to ensure scalability and performance under heavy workloads.",
     ],
-    skills: ["PHP", "CakePHP", "MySQL", "Database Optimization", "Performance Tuning"],
+    skills: [
+      "PHP",
+      "CakePHP",
+      "MySQL",
+      "Database Optimization",
+      "Performance Tuning",
+    ],
   },
   {
     role: "Freelance Developer",
@@ -35,7 +70,7 @@ export const experiences = [
       "Optimized customer queuing workflows for a coffee shop, improving user experience and customer retention.",
       "Delivered tailored solutions based on unique business requirements.",
     ],
-    skills: ["React", "Bootstrap", "VB.NET", "MySQL", "Workflow Optimization"], 
+    skills: ["React", "Bootstrap", "VB.NET", "MySQL", "Workflow Optimization"],
   },
   {
     role: "Hello World!",
@@ -84,8 +119,8 @@ export const projects = [
     highlights: [
       "Mobile integration via Glide",
       "Optimized order processing flow",
-      "Designed for high-volume transactions"
-    ]
+      "Designed for high-volume transactions",
+    ],
   },
   {
     id: "study-routine-system",
@@ -99,8 +134,8 @@ export const projects = [
     status: "Completed",
     highlights: [
       "Time-triggered study scheduling",
-      "Improved user discipline through automation"
-    ]
+      "Improved user discipline through automation",
+    ],
   },
   {
     id: "capsgen",
@@ -114,8 +149,8 @@ export const projects = [
     status: "Completed",
     highlights: [
       "Streamlined data generation",
-      "Improved internal process efficiency"
-    ]
+      "Improved internal process efficiency",
+    ],
   },
   {
     id: "skyboard",
@@ -127,10 +162,7 @@ export const projects = [
     href: "#",
     image: "/project-imgs/skyboard.png",
     status: "Completed",
-    highlights: [
-      "Real-time API integration",
-      "Responsive UI design"
-    ]
+    highlights: ["Real-time API integration", "Responsive UI design"],
   },
   {
     id: "lumio",
@@ -145,8 +177,8 @@ export const projects = [
     highlights: [
       "Geo-based interaction model",
       "Anonymous communication design",
-      "Experimental social UX concept"
-    ]
+      "Experimental social UX concept",
+    ],
   },
   {
     id: "chordstack",
@@ -161,9 +193,9 @@ export const projects = [
     highlights: [
       "Geo-based interaction model",
       "Anonymous communication design",
-      "Experimental social UX concept"
-    ]
-  }
+      "Experimental social UX concept",
+    ],
+  },
 ];
 
 export const techStack = {
@@ -178,6 +210,5 @@ export const certifications = [
     name: "Javascript",
     issuer: "TestDome",
     url: "https://www.testdome.com/certificates/3deda3907b6f496f8b387064c58a0ac9",
-    username: "jaredsfdev"
-  }
-]
+  },
+];

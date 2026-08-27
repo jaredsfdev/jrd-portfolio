@@ -23,18 +23,15 @@ function HeroCard() {
       <div className={styles.avatarWrap}>
         <img src={isDarkMode ? "/portfolio-image-night.png" : "/portfolio-image-day.png"} alt="Jared San Fernando" className={styles.avatar} />
       </div>
-      <h1 className={styles.title}>Renz Jorges Jared San Fernando <VerifiedBadge/></h1>
+      <h2 className={styles.title}>Renz Jorges Jared San Fernando <VerifiedBadge/></h2>
       <div className={styles.meta}>
         <span>
-          <FontAwesomeIcon icon={faCode} /> Software Developer | Web Developer
+           Software Developer | Web Developer
         </span>
         <span>
-          <FontAwesomeIcon icon={faLocationDot} /> Rodriguez Rizal, Philippines
+           Rodriguez Rizal, Philippines
         </span>
       </div>
-      <p className={styles.summary}>
-        I build scalable web applications for HRIS, POS, and booking systems.
-      </p>
       <div>
         <hr />
       </div>

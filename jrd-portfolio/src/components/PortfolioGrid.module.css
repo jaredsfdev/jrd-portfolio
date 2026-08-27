@@ -244,3 +244,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+.timelineDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

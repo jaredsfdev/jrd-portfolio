@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Card from "./ui/Card";
 import Tag from "./ui/Tag";
 import styles from "./HeroCard.module.css";
